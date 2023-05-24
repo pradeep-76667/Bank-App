@@ -6,7 +6,7 @@ public interface BankAcc {
 //    get totalInterest
 
     Boolean withdrawMoney(int money) ;
-    Boolean addMoney(int money)
+    Boolean addMoney(int money);
     int checkBalance();
     int getROI();
     int getTotalInterest(int amount, int timeInYears);

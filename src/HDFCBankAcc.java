@@ -1,7 +1,7 @@
 import java.util.UUID;
 
 public class HDFCBankAcc implements BankAcc {
-    private String accountNumber
+    private String accountNumber;
     private int balance;
     private int ROI;
 
