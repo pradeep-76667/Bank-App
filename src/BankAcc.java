@@ -1,5 +1,6 @@
 public interface BankAcc {
-//    withdraw
+    //    withdraw
 //    saving
 //    current
+    Boolean withdrawMoney(int money) ;
 }
